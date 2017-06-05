@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/genius.css">
+		<script type="text/javascript" src="js/genius.js"></script>
+		<title>Game Genius</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="simon">
+				<div id="first"></div>
+				<div id="a" onclick="myClick(0)"></div>
+				<div id="b" onclick="myClick(1)"></div>
+				<div id="c" onclick="myClick(2)"></div>
+				<div id="d" onclick="myClick(3)"></div>
+				<div id="sixth"></div>
+			</div>
+			<div id="count">0</div>
+		</div>
+		<div id="start" onclick="init()">Jogar</div>
+		<div id="fail" onclick="restart()"><span>Clique para tentar novamente</span></div>
+	</body>
+</html>
